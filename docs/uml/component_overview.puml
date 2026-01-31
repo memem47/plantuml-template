@@ -1,0 +1,16 @@
+@startuml component_overview
+title Component Diagram (Example)
+
+package "UI" {
+  [App]
+}
+
+package "Core" {
+  [Service]
+  [Repository]
+}
+
+[App] --> [Service]
+[Service] --> [Repository]
+
+@enduml

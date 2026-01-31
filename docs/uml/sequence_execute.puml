@@ -1,0 +1,13 @@
+@startuml sequence_execute
+title Sequence Diagram (Example)
+
+actor User
+participant App
+participant Service
+
+User -> App : click
+App -> Service : execute()
+Service --> App : ok
+App --> User : done
+
+@enduml
