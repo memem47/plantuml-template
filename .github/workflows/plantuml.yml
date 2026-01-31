@@ -7,22 +7,18 @@ on:
       - "docs/uml/**.puml"
       - ".github/workflows/plantuml.yml"
 
-permissions:
-  contents: write
-
 jobs:
   render:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Render PlantUML to SVG
-        uses: cloudbees/plantuml-github-action@master
+      - name: Render PlantUML (SVG)
+        uses: holowinski/plantuml-github-action@main
         with:
-          args: -v -tsvg -o ../images/uml docs/uml
+          args: -v -tsvg -o docs/images/uml docs/uml/*.puml
 
-      - name: Auto-commit rendered diagrams
+      - name: Commit rendered diagrams
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "docs: render PlantUML diagrams"
-          file_pattern: "docs/images/uml/*.svg"
