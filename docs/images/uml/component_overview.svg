@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="350px" preserveAspectRatio="none" style="width:294px;height:350px;" version="1.1" viewBox="0 0 294 350" width="294px" zoomAndPan="magnify"><defs><filter height="300%" id="f1ujtlyhk6kocc" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="280" x="2" y="16.708">Component Diagram (Example)</text><!--MD5=[9681dc6e01e10c6b4fe06895ae94f592]
+cluster UI--><polygon fill="#FFFFFF" filter="url(#f1ujtlyhk6kocc)" points="96,44.9531,117,44.9531,124,67.25,176,67.25,176,131.9531,96,131.9531,96,44.9531" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="96" x2="124" y1="67.25" y2="67.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="15" x="100" y="59.9482">UI</text><!--MD5=[2c2e2644034c00788261e03c85b06837]
+cluster Core--><polygon fill="#FFFFFF" filter="url(#f1ujtlyhk6kocc)" points="73,155.9531,117,155.9531,124,178.25,199,178.25,199,338.9531,73,338.9531,73,155.9531" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="73" x2="124" y1="178.25" y2="178.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="38" x="77" y="170.9482">Core</text><!--MD5=[6e8f311b0aa23032184ffba0ef926f91]
+entity App--><rect fill="#FEFECE" filter="url(#f1ujtlyhk6kocc)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="47" x="112.5" y="79.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="107.5" y="84.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="107.5" y="106.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="27" x="122.5" y="102.9482">App</text><!--MD5=[17737e49c286898813382e12d6080e03]
+entity Service--><rect fill="#FEFECE" filter="url(#f1ujtlyhk6kocc)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="70" x="101" y="190.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="96" y="195.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="96" y="217.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="111" y="213.9482">Service</text><!--MD5=[4e260e4024c27e03c495c33059d2b5ff]
+entity Repository--><rect fill="#FEFECE" filter="url(#f1ujtlyhk6kocc)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="94" x="89" y="286.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="84" y="291.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="84" y="313.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="74" x="99" y="309.9482">Repository</text><!--MD5=[1888775462fba6bfc1e937667a7ec5f4]
+link App to Service--><path d="M136,115.9831 C136,134.7531 136,165.0031 136,185.6531 " fill="none" id="App-&gt;Service" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="136,190.6831,140,181.6831,136,185.6831,132,181.6831,136,190.6831" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[81f86c4a65986ff24d640374da06d0c2]
+link Service to Repository--><path d="M136,227.1931 C136,242.4331 136,264.7631 136,281.4131 " fill="none" id="Service-&gt;Repository" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="136,286.8231,140,277.8231,136,281.8231,132,277.8231,136,286.8231" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[f166694d064c327728883486dbdc9d20]
+@startuml component_overview
+title Component Diagram (Example)
+
+package "UI" {
+  [App]
+}
+
+package "Core" {
+  [Service]
+  [Repository]
+}
+
+[App] - -> [Service]
+[Service] - -> [Repository]
+
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 10:22:07 UTC 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 17.0.18+8
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
