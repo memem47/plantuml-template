@@ -1,0 +1,15 @@
+@startuml usecase_overview
+title Use Case Diagram (Template)
+
+left to right direction
+
+actor User
+rectangle System {
+  usecase "View Data" as UC1
+  usecase "Export Report" as UC2
+}
+
+User --> UC1
+User --> UC2
+
+@enduml

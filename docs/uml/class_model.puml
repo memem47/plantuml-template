@@ -1,0 +1,16 @@
+@startuml class_model
+title Class Diagram (Template)
+
+class User {
+  +id: int
+  +name: string
+}
+
+class Order {
+  +id: int
+  +total: decimal
+}
+
+User "1" --> "0..*" Order : places
+
+@enduml

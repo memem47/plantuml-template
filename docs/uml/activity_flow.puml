@@ -1,0 +1,14 @@
+@startuml activity_flow
+title Activity Diagram (Template)
+
+start
+:Receive request;
+if (Valid?) then (yes)
+  :Process;
+  :Return OK;
+else (no)
+  :Return Error;
+endif
+stop
+
+@enduml

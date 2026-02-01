@@ -6,10 +6,11 @@ on:
     paths:
       - "docs/uml/**.puml"
       - ".github/workflows/plantuml.yml"
+      - "README.md"
 
 permissions:
   contents: write
-  
+
 jobs:
   render:
     runs-on: ubuntu-latest
@@ -18,12 +19,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install PlantUML
+      - name: Install PlantUML & Graphviz
         run: |
           sudo apt-get update
           sudo apt-get install -y plantuml graphviz
 
-      - name: Render diagrams
+      - name: Render diagrams to SVG
         run: |
           mkdir -p docs/images/uml
           plantuml -tsvg -o ../images/uml docs/uml/*.puml
