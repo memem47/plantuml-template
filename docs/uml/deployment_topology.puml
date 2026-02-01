@@ -1,16 +1,16 @@
 @startuml deployment_topology
 title Deployment Diagram (Template)
 
-node "Client PC" {
-  artifact "App.exe"
+node "Client PC" as Client {
+  rectangle "App.exe" as App
 }
 
-node "Server" {
-  artifact "API Service"
-  database "DB"
+node "Server" as Server {
+  rectangle "API Service" as Api
+  database "DB" as Db
 }
 
-"App.exe" --> "API Service" : HTTPS
-"API Service" --> "DB" : SQL
+App --> Api : HTTPS
+Api --> Db : SQL
 
 @enduml
