@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="424px" preserveAspectRatio="none" style="width:245px;height:424px;" version="1.1" viewBox="0 0 245 424" width="245px" zoomAndPan="magnify"><defs><filter height="300%" id="feyftli76na3a" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="231" x="2" y="16.708">State Diagram (Template)</text><ellipse cx="128" cy="38.9531" fill="#000000" filter="url(#feyftli76na3a)" rx="10" ry="10" style="stroke: none; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#feyftli76na3a)" height="50" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="50" x="103" y="109.9531"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="103" x2="153" y1="136.25" y2="136.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="24" x="116" y="127.9482">Idle</text><rect fill="#FEFECE" filter="url(#feyftli76na3a)" height="50" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="78" x="33" y="236.9531"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="33" x2="111" y1="263.25" y2="263.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="58" x="43" y="254.9482">Running</text><rect fill="#FEFECE" filter="url(#feyftli76na3a)" height="50" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="53" x="100.5" y="363.9531"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="100.5" x2="153.5" y1="390.25" y2="390.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="33" x="110.5" y="381.9482">Error</text><!--MD5=[38f1f8b7f214ff6bc6d4b705f682283d]
+link *start to Idle--><path d="M128,48.9631 C128,61.6531 128,85.3631 128,104.5231 " fill="none" id="*start-&gt;Idle" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="128,109.7931,132,100.7931,128,104.7931,124,100.7931,128,109.7931" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[3417694be1da1206b2440866876cc429]
+link Idle to Running--><path d="M102.81,146.4731 C85.33,155.2831 63.39,169.6731 53,189.9531 C46.32,203.0031 49.46,218.6331 54.95,231.9131 " fill="none" id="Idle-&gt;Running" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="57.07,236.6831,57.0757,226.8343,55.042,232.1129,49.7633,230.0791,57.07,236.6831" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="30" x="54" y="203.02">start</text><!--MD5=[376ddfb0bd4ef941b61e4745ba13b716]
+link Running to Idle--><path d="M82.76,236.9231 C91.97,216.3731 105.25,186.7231 115.04,164.8731 " fill="none" id="Running-&gt;Idle" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="117.2,160.0531,109.8761,166.638,115.16,164.6181,117.18,169.902,117.2,160.0531" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="28" x="104" y="203.02">stop</text><!--MD5=[6c30bec02d9ac096a18f72b0ee9f7920]
+link Running to Error--><path d="M82.6,287.0531 C91.66,307.6331 104.7,337.2831 114.31,359.1131 " fill="none" id="Running-&gt;Error" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="116.43,363.9231,116.4728,354.0744,114.4192,359.3453,109.1482,357.2917,116.43,363.9231" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="39" x="103" y="330.02">failure</text><!--MD5=[7d364e43dace9a2f8df92504d800134c]
+link Error to Idle--><path d="M140.25,363.9531 C144.58,354.8431 148.83,344.1931 151,333.9531 C163.58,274.6631 148.18,203.8331 137.2,164.9931 " fill="none" id="Error-&gt;Idle" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="135.75,159.9631,134.3955,169.7184,137.133,164.768,142.0834,167.5056,135.75,159.9631" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="33" x="156" y="266.52">reset</text><!--MD5=[73436d1aaf74bc0103399e6a066e80ca]
+@startuml state_machine
+title State Diagram (Template)
+
+[*] - -> Idle
+Idle - -> Running : start
+Running - -> Idle : stop
+Running - -> Error : failure
+Error - -> Idle : reset
+
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 10:22:07 UTC 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 17.0.18+8
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

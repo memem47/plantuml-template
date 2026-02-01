@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="411px" preserveAspectRatio="none" style="width:308px;height:411px;" version="1.1" viewBox="0 0 308 411" width="308px" zoomAndPan="magnify"><defs><filter height="300%" id="fjjujp9dg1y0b" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="294" x="2" y="16.708">Deployment Diagram (Template)</text><!--MD5=[406b65fecc21e832f7a9b6ebadc6dce1]
+cluster Client--><polygon fill="#FFFFFF" filter="url(#fjjujp9dg1y0b)" points="72,54.9531,82,44.9531,219,44.9531,219,126.9531,209,136.9531,72,136.9531,72,54.9531" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="209" x2="218" y1="54.9531" y2="45.9531"/><line style="stroke: #000000; stroke-width: 1.5;" x1="72" x2="209" y1="54.9531" y2="54.9531"/><line style="stroke: #000000; stroke-width: 1.5;" x1="209" x2="209" y1="54.9531" y2="136.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="71" x="106" y="70.9482">Client PC</text><!--MD5=[979da56a7f83e2393dc758167ae295d0]
+cluster Server--><polygon fill="#FFFFFF" filter="url(#fjjujp9dg1y0b)" points="67,195.9531,77,185.9531,196,185.9531,196,389.9531,186,399.9531,67,399.9531,67,195.9531" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="186" x2="195" y1="195.9531" y2="186.9531"/><line style="stroke: #000000; stroke-width: 1.5;" x1="67" x2="186" y1="195.9531" y2="195.9531"/><line style="stroke: #000000; stroke-width: 1.5;" x1="186" x2="186" y1="195.9531" y2="399.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="53" x="101" y="211.9482">Server</text><!--MD5=[6e8f311b0aa23032184ffba0ef926f91]
+entity App--><rect fill="#FEFECE" filter="url(#fjjujp9dg1y0b)" height="36.2969" style="stroke: #000000; stroke-width: 1.5;" width="76" x="93" y="84.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="103" y="107.9482">App.exe</text><!--MD5=[4d17ebef18975ec1b63c6031f196eef0]
+entity Api--><rect fill="#FEFECE" filter="url(#fjjujp9dg1y0b)" height="36.2969" style="stroke: #000000; stroke-width: 1.5;" width="95" x="83.5" y="225.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="75" x="93.5" y="248.9482">API Service</text><!--MD5=[816a78354711787a9606403ecfc1fa2f]
+entity Db--><path d="M110.5,348.9531 C110.5,338.9531 131,338.9531 131,338.9531 C131,338.9531 151.5,338.9531 151.5,348.9531 L151.5,374.25 C151.5,384.25 131,384.25 131,384.25 C131,384.25 110.5,384.25 110.5,374.25 L110.5,348.9531 " fill="#FEFECE" filter="url(#fjjujp9dg1y0b)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M110.5,348.9531 C110.5,358.9531 131,358.9531 131,358.9531 C131,358.9531 151.5,358.9531 151.5,348.9531 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="21" x="120.5" y="375.9482">DB</text><!--MD5=[df8ce1e6be617f723ecc31f823b695e6]
+link App to Api--><path d="M131,120.9931 C131,146.0031 131,192.6831 131,220.4731 " fill="none" id="App-&gt;Api" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="131,225.7731,135,216.7731,131,220.7731,127,216.7731,131,225.7731" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="41" x="132" y="166.02">HTTPS</text><!--MD5=[5b50ff5d67aca50b74a2f0e91a9567cb]
+link Api to Db--><path d="M131,261.9931 C131,280.8131 131,311.3831 131,333.4631 " fill="none" id="Api-&gt;Db" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="131,338.6031,135,329.6031,131,333.6031,127,329.6031,131,338.6031" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="26" x="132" y="305.02">SQL</text><!--MD5=[a8b497564f37c35e5b23a94f888ab999]
+@startuml deployment_topology
+title Deployment Diagram (Template)
+
+node "Client PC" as Client {
+  rectangle "App.exe" as App
+}
+
+node "Server" as Server {
+  rectangle "API Service" as Api
+  database "DB" as Db
+}
+
+App - -> Api : HTTPS
+Api - -> Db : SQL
+
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 10:22:07 UTC 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 17.0.18+8
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="264px" preserveAspectRatio="none" style="width:243px;height:264px;" version="1.1" viewBox="0 0 243 264" width="243px" zoomAndPan="magnify"><defs><filter height="300%" id="f9w5h6lwix8se" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="229" x="2" y="16.708">Class Diagram (Template)</text><!--MD5=[3fd616f346a44cd59a91eb10b19e157c]
+class User--><rect fill="#FEFECE" filter="url(#f9w5h6lwix8se)" height="73.6094" id="User" style="stroke: #A80036; stroke-width: 1.5;" width="99" x="61" y="28.9531"/><ellipse cx="93.1" cy="44.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M96.0688,50.5938 Q95.4906,50.8906 94.85,51.0313 Q94.2094,51.1875 93.5063,51.1875 Q91.0063,51.1875 89.6781,49.5469 Q88.3656,47.8906 88.3656,44.7656 Q88.3656,41.6406 89.6781,39.9844 Q91.0063,38.3281 93.5063,38.3281 Q94.2094,38.3281 94.85,38.4844 Q95.5063,38.6406 96.0688,38.9375 L96.0688,41.6563 Q95.4438,41.0781 94.85,40.8125 Q94.2563,40.5313 93.6313,40.5313 Q92.2875,40.5313 91.6,41.6094 Q90.9125,42.6719 90.9125,44.7656 Q90.9125,46.8594 91.6,47.9375 Q92.2875,49 93.6313,49 Q94.2563,49 94.85,48.7344 Q95.4438,48.4531 96.0688,47.875 L96.0688,50.5938 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="29" x="110.9" y="49.1074">User</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="62" x2="159" y1="60.9531" y2="60.9531"/><ellipse cx="72" cy="71.9531" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="32" x="81" y="75.1636">id: int</text><ellipse cx="72" cy="84.7578" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="73" x="81" y="87.9683">name: string</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="62" x2="159" y1="94.5625" y2="94.5625"/><!--MD5=[cf4d6237fcae255cd2e1656cf84a30e2]
+class Order--><rect fill="#FEFECE" filter="url(#f9w5h6lwix8se)" height="73.6094" id="Order" style="stroke: #A80036; stroke-width: 1.5;" width="103" x="59" y="179.9531"/><ellipse cx="90.2" cy="195.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M93.1688,201.5938 Q92.5906,201.8906 91.95,202.0313 Q91.3094,202.1875 90.6063,202.1875 Q88.1063,202.1875 86.7781,200.5469 Q85.4656,198.8906 85.4656,195.7656 Q85.4656,192.6406 86.7781,190.9844 Q88.1063,189.3281 90.6063,189.3281 Q91.3094,189.3281 91.95,189.4844 Q92.6063,189.6406 93.1688,189.9375 L93.1688,192.6563 Q92.5438,192.0781 91.95,191.8125 Q91.3563,191.5313 90.7313,191.5313 Q89.3875,191.5313 88.7,192.6094 Q88.0125,193.6719 88.0125,195.7656 Q88.0125,197.8594 88.7,198.9375 Q89.3875,200 90.7313,200 Q91.3563,200 91.95,199.7344 Q92.5438,199.4531 93.1688,198.875 L93.1688,201.5938 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="35" x="107.8" y="200.1074">Order</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="60" x2="161" y1="211.9531" y2="211.9531"/><ellipse cx="70" cy="222.9531" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="32" x="79" y="226.1636">id: int</text><ellipse cx="70" cy="235.7578" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="77" x="79" y="238.9683">total: decimal</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="60" x2="161" y1="245.5625" y2="245.5625"/><!--MD5=[5b2a2bdb39cc116e4a78ea074bb38160]
+link User to Order--><path d="M110.5,103.0231 C110.5,124.6431 110.5,152.2031 110.5,174.6931 " fill="none" id="User-&gt;Order" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="110.5,179.7031,114.5,170.7031,110.5,174.7031,106.5,170.7031,110.5,179.7031" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="41" x="111.5" y="146.02">places</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="101.8375" y="122.5153">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="23" x="85.4516" y="168.8455">0..*</text><!--MD5=[39fa44ec991d8c4d3ee0e532f0732c15]
+@startuml class_model
+title Class Diagram (Template)
+
+class User {
+  +id: int
+  +name: string
+}
+
+class Order {
+  +id: int
+  +total: decimal
+}
+
+User "1" - -> "0..*" Order : places
+
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 10:22:07 UTC 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 17.0.18+8
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
